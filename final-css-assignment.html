@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="file:///C:/Users/Sukanya/Downloads/fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.css" >
+
+        <style>
+
+            html {
+                background-image: url(th.jpg);
+                overflow-y: scroll;
+            }
+
+            .form {
+                padding: 20px;
+                margin: 20px;
+                margin-top: 100px;
+                background-color: rgb(202, 200, 200);
+                display: inline-block;
+            }
+
+            .btn {
+                background-color: white;
+                width: 100%;
+            }
+
+            .label {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .two_btn {
+                background-color: olive;
+                color: white;
+            }
+
+            .icon {
+                background-color: rgb(66, 165, 211);
+            }
+
+            #home {
+                top: 0px;
+                left: 0px;
+                border: 1px solid rgb(67, 117, 224);
+                margin: 15px;
+                margin-right: 2px;
+                padding: 5px;
+                color: white;
+            }
+
+            #list {
+                top: 0px;
+                left: 0px;
+                border: 1px solid rgb(67, 117, 224);
+                margin: 3px;
+                padding: 5px;
+                color: white;
+            }
+
+            #txt1 {
+                top: 0px;
+                left: 0px;
+                border: 1px solid rgb(67, 117, 224);
+                margin: 2px;
+                padding: 5px;
+            }
+
+            #user {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                border: 1px solid rgb(67, 117, 224);
+                margin: 20px;
+                margin-left: 5px;
+                padding: 5px;
+                color: white;
+            }
+
+            #trala {
+               
+                text-align: center;
+                top: 0px;
+            }
+
+            #plus {
+                position: absolute;
+                top: 0px;
+                right: 30px;
+                border: 1px solid rgb(67, 117, 224);
+                margin: 20px;
+                padding: 5px;
+                color: white;
+            }
+
+            .second_row {
+                color: white;
+            }
+
+            #menu {
+                position: absolute;
+                top: 40px;
+                right: 0px;
+                border: 1px solid rgb(67, 117, 224);
+                margin: 20px;
+                padding: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="icon">
+            <div class="icons">
+                <i class="fas fa-home" id="home"></i>
+                <i class="fas fa-list" id="list">  Boards</i>
+                <input type="text" id="txt1" />
+            </div>
+            
+            <h2 id="trala"> Tralala </h2>
+
+            <div class="icon2">
+                <i class="fas fa-plus-square" id="plus"></i>
+                <i class="fas fa-user" id="user"></i> 
+            </div>
+        </div>
+
+        <div class="second_row">
+            <label> Frontend Training</label>
+            <i class="fas fa-ellipsis-v" id="menu"> Show menu</i>
+        </div>
+
+        <div class="form1">
+
+            <form class="form">
+                <label class="label">To Do</label> <br/> <br/>
+                <button class="btn">Learn HTML</button> <br/> <br/> 
+                <button class="btn">Learn CSS</button> <br/>  <br/>            
+                <button class="btn">Learn JavaScript</button>   <br/> <br/>
+                <button>
+                    <i class="fas fa-plus"></i>
+                    Add another card
+                </button>
+            </form>
+
+            <form class="form">
+                <label class="label">Doing</label> <br/> <br/>
+                <button class="btn">Prepare resume</button>   <br/><br/>
+                <textarea placeholder="Enter title for this card..."></textarea> <br/> <br/>
+                <button class="two_btn">Add Card</button>
+                <i class="fas fa-times"></i>
+            </form>
+
+            <form class="form">
+                <label class="label"> Testing/Verifyng</label> <br/> <br/>
+                <button class="btn">Twitter app frontend       </button> <br/> <br/>
+                <button>
+                <i class="fas fa-plus"></i>
+                Add another card
+                </button>
+            </form>
+
+            <form class="form">
+                <label class="label">Deploying</label> <br/><br/>
+                <button class="btn">Twitter app backend</button> <br/> <br/>
+            </form>
+
+            <form class="form">
+                <label class="label">Done</label> <br/><br/>
+                <button>
+                    <i class="fas fa-plus"></i>
+                    Add card
+                </button>
+            </form>
+
+            <form class="form">
+                <button>
+                    <i class="fas fa-plus"></i>
+                    Add another list
+                </button>
+            </form>
+
+            <form class="form">
+                <textarea placeholder="Enter last element...">  </textarea> <br/> <br/>
+                <button class="two_btn">Add List</button>
+                <i class="fas fa-times"></i>
+            </form>
+    
+        </div>
+        
+        
+        
+       
+        <i class="fas fa-pencil-alt"></i>
+    </body>
+</html>
